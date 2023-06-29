@@ -1,3 +1,5 @@
+---DATA CLEANING----
+
 USE Netflix_Data;
 
 SELECT *
@@ -150,7 +152,6 @@ WHERE director IS NULL;
 
 SELECT *
 FROM netflix_dirty
-
 
 ---Populate the country using the director column 
 
@@ -309,7 +310,8 @@ SELECT * FROM netflix_dirty
 
 
 
----DATA ANALYSIS
+	
+---DATA ANALYSIS---
 
 SELECT * FROM netflix_dirty
 
